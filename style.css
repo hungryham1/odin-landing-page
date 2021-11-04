@@ -1,0 +1,181 @@
+
+body {
+    height: 100vh;
+    margin: 0;
+    height: 0;
+  
+}
+
+/*    First    */
+
+.first {
+    display:flex;
+    background-color: #f8f6f7;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.header {
+    display:flex;
+    justify-content: space-around;
+    margin-top:30px
+}
+
+.logo img {
+    width: 150px;
+    height: 100px;
+}
+
+.tab li {
+    display: inline;
+    padding: 15px;
+    font-size: 18px;
+}
+
+a { text-decoration: none;
+    color: black;
+}
+
+h1 {
+    margin:0;
+    font-size:48px;
+    font-weight:bolder;
+}
+
+p1 {
+    font-size:18px;
+    margin-top: 10px;
+    }
+
+.container {
+    display:flex;
+    justify-content: space-around;
+    padding-left: 200px;
+}
+
+.paragraph {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 500px;
+    height:150px;
+    padding-top: 100px;
+}
+
+.topimage {
+    width: 620px;
+    height:300px;
+}
+
+button {
+    margin-top: 15px;
+    padding:15px;
+    border: #f8f6f7;
+    background-color: #b4b57796;
+    padding: 0.6em 2em;
+    border-radius: 8px;
+    cursor:pointer;
+
+}
+
+
+.second {
+    justify-content: center;
+    display: flex;
+}
+
+/*    Second    */
+
+.second {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.random {
+    display:flex;
+    justify-content: center;
+    padding:50px;
+    
+}
+
+.container2 {
+    display:flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.box {
+   text-align: center;
+   width:250px;
+   font-size:20px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+/* Third */
+
+.third {
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    background-color: #f8f6f7;
+
+}
+
+p2 {
+    padding: 120px;
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+}
+
+.blah {
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+/* Fourth */
+
+.fourth {
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 250px;
+
+}
+
+.box2 {
+  display: flex;
+    flex-wrap: wrap; 
+    width: 1000px;
+    height:150px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #757e6160;
+    border-radius:8px;
+}
+
+button2 {
+    margin-top: 15px;
+    border: #f8f6f7;
+    background-color: #b4b57796;
+    padding: 0.6em 2em;
+    border-radius: 8px;
+    cursor:pointer;
+    height:20px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #469b7054;
+    font-size: 25px;
+}
+
